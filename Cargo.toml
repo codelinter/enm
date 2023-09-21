@@ -1,0 +1,8 @@
+[package]
+name = "enm"
+version = "0.0.1"
+authors = ["Dhawal CL <dhawal@codelinter.com>"]
+edition = "2021"
+license = "GPL-3.0"
+repository = "https://enm.codelinter.com"
+description = "Easy NodeJS Manager (enm)"
