@@ -4,6 +4,7 @@ mod available_versions;
 mod entry_interface;
 mod app_config;
 mod cpu_arch;
+mod fetcher;
 
 #[macro_use]
 mod std_system_structure;
