@@ -2,6 +2,8 @@ mod actions;
 mod alias;
 mod available_versions;
 mod entry_interface;
+mod app_config;
+mod cpu_arch;
 
 #[macro_use]
 mod std_system_structure;
