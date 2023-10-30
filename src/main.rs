@@ -5,6 +5,7 @@ mod entry_interface;
 mod app_config;
 mod cpu_arch;
 mod fetcher;
+mod symlinked;
 
 #[macro_use]
 mod std_system_structure;
