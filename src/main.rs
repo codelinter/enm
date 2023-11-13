@@ -7,6 +7,7 @@ mod cpu_arch;
 mod fetcher;
 mod symlinked;
 mod http;
+mod loaders;
 
 #[macro_use]
 mod std_system_structure;
