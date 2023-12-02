@@ -1,3 +1,11 @@
+#![warn(clippy::pedantic, rust_2018_idioms, clippy::all)]
+#![allow(
+    clippy::enum_variant_names,
+    clippy::large_enum_variant,
+    clippy::module_name_repetitions,
+    clippy::similar_names
+)]
+
 mod actions;
 mod alias;
 mod available_versions;
@@ -8,6 +16,7 @@ mod fetcher;
 mod symlinked;
 mod http;
 mod loaders;
+mod long_term_usage;
 
 #[macro_use]
 mod std_system_structure;
