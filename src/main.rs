@@ -19,6 +19,8 @@ mod loaders;
 mod long_term_usage;
 mod ni_remote;
 mod path_ext;
+mod pressed;
+mod prtl_folder;
 
 #[macro_use]
 mod std_system_structure;
