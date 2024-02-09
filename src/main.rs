@@ -21,6 +21,16 @@ mod ni_remote;
 mod path_ext;
 mod pressed;
 mod prtl_folder;
+mod reader_uv;
+mod terminators_entry;
+mod sift_method;
+mod system_info;
+mod machine_semver;
+mod user_version;
+mod user_version_in;
+mod version;
+mod version_files;
+mod version_now;
 
 #[macro_use]
 mod std_system_structure;
