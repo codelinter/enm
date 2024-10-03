@@ -17,6 +17,9 @@ pub trait Shell: Debug {
 pub enum Shells {
     Bash,
     Zsh,
+    #[clap(name = "powershell", alias = "power-shell")]
+    PowerShell,
+    #[cfg(windows)]
     Cmd,
 }
 
@@ -26,6 +29,8 @@ impl Display for Shells {
             Shells::Bash => f.write_str("bash"),
             Shells::Zsh => f.write_str("zsh"),
             Shells::PowerShell => f.write_str("powershell"),
+            #[cfg(windows)]
+            Shells::Cmd => f.write_str("cmd"),
         }
     }
 }

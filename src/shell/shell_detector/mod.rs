@@ -1,7 +1,12 @@
 mod unix;
 
+mod windows;
+
 #[cfg(unix)]
 pub use self::unix::shell_detector;
+#[cfg(not(unix))]
+pub use self::windows::shell_detector;
+
 fn shell_from_string(shell: &str) -> Option<Box<dyn super::Shell>> {
     use super::{Bash, PowerShell, WindowsCmd, Zsh};
     match shell {
