@@ -8,6 +8,7 @@ mod http;
 mod lts;
 mod path_ext;
 mod version;
+mod progress; 
 
 #[macro_use]
 mod llevel;
