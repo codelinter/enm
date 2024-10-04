@@ -1,4 +1,17 @@
+mod vsetter;
+mod node_pkg_j;
+mod arch;
+mod archive;
 mod cli;
+mod p_folder;
+mod http;
+mod lts;
+mod path_ext;
+mod version;
+
+#[macro_use]
+mod llevel;
+mod p_folders;
 
 fn main() {
     env_logger::init();
