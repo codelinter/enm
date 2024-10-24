@@ -81,14 +81,6 @@ impl Command for Env {
                 config.cd_file_changer().as_str(),
             ),
             ("ENM_DIR", base_dir.to_str().unwrap()),
-            ("ENM_LOGLEVEL", config.llevel().as_str()),
-            ("ENM_NODE_DIST_MIRROR", config.node_dist_mirror.as_str()),
-            // (
-            //     "ENM_COREPACK_ENABLED",
-            //     bool_as_str(config.corepack_enabled()),
-            // ),
-            ("ENM_RESOLVE_ENGINES", bool_as_str(config.resolve_engines())),
-            ("ENM_ARCH", config.arch.as_str()),
         ];
 
         if self.json {

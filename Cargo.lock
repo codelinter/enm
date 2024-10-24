@@ -575,7 +575,7 @@ dependencies = [
 
 [[package]]
 name = "enm"
-version = "1.0.0"
+version = "1.82.0"
 dependencies = [
  "anyhow",
  "chrono",
